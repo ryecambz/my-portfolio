@@ -13,7 +13,7 @@
     @keyframes appear {
       from{
         opacity: 0;
-        transform: translateY(-200px);
+        transform: translateY(-50px);
       }
       to {
         opacity: 1;
@@ -25,148 +25,216 @@
 
 </head>
 <body>
-<div class="flex flex-col md:flex-row justify-between items-start w-full px-8 mt-12 gap-8 font-sans" id="block">
-  <p class="text-right text-4xl text-heading fade-on-scroll gantari-mainfont font-bold" id="block">
-    #
-  </p>
-  <p class="text-left max-w-xs text-heading gantari-mainfont" id="block">
-    <span class="opacity-50">></span>Hi I'm a Network Engineer & Cybersecurity specialist from the Philippines, I specialize in enterprise-level network engineering and cybersecurity.
-  </p>
+<section class="relative w-full bg-[#0D0D0D] pt-32 pb-12 px-6 overflow-hidden">
+  <div class="flex flex-col items-center justify-center">
+    <h1 class="text-[14vw] md:text-[12vw] font-black uppercase leading-[0.8] tracking-tighter text-[#F2F2F2] select-none animate-[slide-down-reveal_linear_forwards] [animation-timeline:view()] [animation-range:entry_100%_cover_50%]">
+      Ryelee <br/> <span class="ml-[10vw]">Cambronero</span>
+    </h1>
+  </div>
+</section>
 
-  <p class="text-right text-heading fade-on-scroll gantari-mainfont font-bold" id="block">
-    Skillsets
-  </p>
-
-  <p class="text-right text-heading fade-on-scroll gantari-mainfont font-bold" id="block">
-    <span class="opacity-50" id="block">></span> Cyber-Security <br> 
-    <span class="opacity-50">></span> Network Engineering <br> 
-    <span class="opacity-50">></span> Network Architecture <br>
-  </p>
-  <a href="contact.html" class="flex items-center gap-2 text-left max-w-xs text-heading gantari-mainfont group cursor-pointer">
-  <span class="opacity-50 transform group-hover:translate-x-1 transition-transform duration-300"> > </span>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 w-full px-8 py-12 border-t border-white/10 font-mono uppercase text-[10px] tracking-[0.2em] text-white/40">
   
-  <span class="border-b border-white/20 group-hover:border-white transition-colors duration-300 text-white" id="block">
-    Get in touch
-  </span>
-  </a>
+  <div class="md:col-span-1">
+    <p class="text-white/60 leading-relaxed normal-case tracking-normal font-sans text-sm italic">
+      <span class="opacity-50 font-mono">></span> Hi I'm based in the Philippines and specialize in enterprise-level network infrastructure and defensive security.
+    </p>
+  </div>
 
+  <div class="flex flex-col gap-2">
+    <span class="text-white/20">01 // Expertise</span>
+    <ul class="text-white/80">
+      <li>Cybersecurity</li>
+      <li>Network Engineering</li>
+      <li>Architecture</li>
+    </ul>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <span class="text-white/20">02 // Availability</span>
+    <p class="text-white/80">Open for Projects — 2026</p>
+  </div>
+
+  <div class="flex flex-col gap-2 items-start md:items-end">
+    <span class="text-white/20">03 // Interaction</span>
+    <a href="contact.html" class="group flex items-center gap-2 text-white hover:text-cyan-500 transition-colors">
+      <span class="group-hover:translate-x-1 transition-transform"> > </span>
+      <span class="border-b border-white/20 group-hover:border-cyan-500/50 uppercase">Get in touch</span>
+    </a>
+  </div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div class="flex flex-col md:flex-row justify-center items-start w-full px-6 mt-4 gap-8 font-sans">
-  <p class="text-[11vw] text-heading leading-none whitespace-nowrap gantari-mainfont" id="block">
-    Ryelee Cambronero
-  </p>
+<section class="relative min-h-screen w-full bg-[#0D0D0D] text-[#F2F2F2] px-6 py-24 flex flex-col justify-center border-b border-white/10">
+  
+  <div class="overflow-hidden border-b border-white/10 pb-2 mb-12">
+    <h2 id="block" class="text-[12vw] font-black uppercase leading-[0.8] tracking-tighter opacity-20 select-none">
+      Background
+    </h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+    <div class="md:col-span-4">
+      <span class="font-mono text-sm uppercase tracking-widest text-white/40">Certifications // 2026</span>
+    </div>
+
+    <div class="md:col-span-8">
+      <h3 class="text-4xl md:text-6xl font-bold leading-tight tracking-tight mb-8">
+        Cisco Certified <br/> 
+        <span class="text-white/30 italic">Network Associate</span>
+      </h3>
+
+      <ul class="space-y-4 border-l border-white/10 pl-6">
+        <li class="group flex items-center gap-4 transition-all hover:translate-x-2">
+          <span class="font-mono text-xs text-white/20 group-hover:text-white">01</span>
+          <span class="text-xl md:text-2xl font-medium tracking-tight">Network Fundamentals</span>
+        </li>
+        <li class="group flex items-center gap-4 transition-all hover:translate-x-2">
+          <span class="font-mono text-xs text-white/20 group-hover:text-white">02</span>
+          <span class="text-xl md:text-2xl font-medium tracking-tight">Routing Protocols</span>
+        </li>
+        <li class="group flex items-center gap-4 transition-all hover:translate-x-2">
+          <span class="font-mono text-xs text-white/20 group-hover:text-white">03</span>
+          <span class="text-xl md:text-2xl font-medium tracking-tight">Network Infrastructure</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="relative w-full bg-[#0B0B0B] text-[#EDEDED] px-6 py-24 border-t border-white/5">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="flex items-baseline justify-between border-b border-white/10 pb-4 mb-16">
+      <h2 class="text-xs font-mono uppercase tracking-[0.3em] text-white/30">Section_02 // Skillset</h2>
+      <span class="text-xs font-mono text-white/20">REL_VER_2026.04</span>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-y-12 md:gap-y-0">
+      
+      <div class="md:col-span-4 self-start">
+        <h3 id="block" 
+          class="text-5xl md:text-7xl font-bold leading-[0.9] tracking-tighter italic 
+             animate-[block] 
+             [animation-timeline:view()] 
+             [animation-range:entry_0%_cover_30%]">
+                Technical <br/>
+                  <span class="text-white/20 not-italic">Expertise</span>
+         </h3>
+      </div>
+
+      <div class="md:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-px bg-white/10 border border-white/10">
+        
+        <div class="bg-[#0B0B0B] p-8 group hover:bg-white/5 transition-colors duration-500">
+          <div class="flex justify-between items-start mb-12">
+            <span class="font-mono text-xs text-cyan-500/50">01</span>
+            <div class="h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_10px_rgba(6,182,212,0.5)]"></div>
+          </div>
+          <h4 class="text-2xl font-semibold mb-2">Pentesting</h4>
+          <p class="text-white/40 font-mono text-sm uppercase tracking-tight">Kali Linux / Metasploit</p>
+        </div>
+
+        <div class="bg-[#0B0B0B] p-8 group hover:bg-white/5 transition-colors duration-500">
+          <span class="font-mono text-xs text-white/20 block mb-12">02</span>
+          <h4 class="text-2xl font-semibold mb-2">Firewall Management</h4>
+          <p class="text-white/40 font-mono text-sm uppercase tracking-tight">Intrusion Detection / Snort</p>
+        </div>
+
+        <div class="bg-[#0B0B0B] p-8 group hover:bg-white/5 transition-colors duration-500 sm:col-span-2">
+          <span class="font-mono text-xs text-white/20 block mb-12">03</span>
+          <h4 class="text-2xl font-semibold mb-2">Incident Response</h4>
+          <p class="text-white/40 font-mono text-sm uppercase tracking-tight">Network Infrastructure Defense</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="w-full bg-[#0D0D0D] text-[#EDEDED] px-6 py-24 border-t border-white/5">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="mb-20">
+      <h2 class="text-xs font-mono uppercase tracking-[0.4em] text-white/30 mb-4">Selected_Works // Archive</h2>
+      <div class="h-px w-full bg-gradient-to-r from-white/20 to-transparent"></div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-32">
+      
+      <div class="group grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+        <div class="md:col-span-7 overflow-hidden bg-[#1A1A1A]">
+          <img src="/images/pckt.jpg" alt="Routing Architecture"
+               class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 scale-100 group-hover:scale-105" />
+        </div>
+        <div class="md:col-span-5 pt-4">
+          <span class="font-mono text-xs text-white/20 mb-4 block">01 / NETWORK ARCHITECTURE</span>
+          <h3 class="text-4xl md:text-5xl font-light tracking-tighter leading-none mb-6">
+            Client-based <br/> Hybrid Routing
+          </h3>
+          <p class="text-white/40 max-w-sm text-sm leading-relaxed mb-8">
+            Optimizing packet flow through multi-path logic and automated failover systems.
+          </p>
+          <div class="h-px w-12 bg-white/20 group-hover:w-full transition-all duration-500"></div>
+        </div>
+      </div>
+
+      <div class="group grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+        <div class="md:col-span-5 pt-4 md:text-right md:order-1 order-2">
+          <span class="font-mono text-xs text-white/20 mb-4 block">02 / CYBER FORENSICS</span>
+          <h3 class="text-4xl md:text-5xl font-light tracking-tighter leading-none mb-6 text-white/90">
+            DeepTrace <br/> <span class="italic text-white/40 text-3xl">Digital Logger</span>
+          </h3>
+          <div class="flex md:justify-end gap-2 mb-8">
+             <span class="px-2 py-1 border border-white/10 text-[10px] font-mono">STRICT_AUTH</span>
+             <span class="px-2 py-1 border border-white/10 text-[10px] font-mono">KALI_ENV</span>
+          </div>
+          <div class="h-px w-12 bg-white/20 group-hover:w-full transition-all duration-500 ml-auto"></div>
+        </div>
+        <div class="md:col-span-7 overflow-hidden bg-[#1A1A1A] md:order-2 order-1">
+          <img src="images/cyb.png" alt="Forensics Screenshot"
+               class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700" />
+        </div>
+      </div>
+
+      <div class="group grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+  
+  <div class="md:col-span-7 overflow-hidden bg-[#1A1A1A] relative">
+    <img src="/images/cloud.webp" alt="Hybrid Cloud Architecture"
+         class="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 scale-100 group-hover:scale-105" />
+    
+    <div class="absolute top-4 left-4">
+      <span class="font-mono text-[10px] bg-black/60 px-2 py-1 border border-white/5 backdrop-blur-sm text-white/40">
+        VIRTUAL_LAYER_ACTIVE
+      </span>
+    </div>
+  </div>
+
+  <div class="md:col-span-5 pt-4">
+    <span class="font-mono text-xs text-white/20 mb-4 block">03 / CLOUD & VIRTUALIZATION</span>
+    
+    <h3 class="text-4xl md:text-5xl font-light tracking-tighter leading-none mb-6">
+      Hybrid Cloud <br/> 
+      <span class="italic text-white/40 font-serif">Infrastructure</span>
+    </h3>
+    
+    <p class="text-white/40 max-w-sm text-sm leading-relaxed mb-8">
+      Implementing HyperVisor solutions to bridge local compute resources with scalable cloud environments.
+    </p>
+
+    <div class="h-px w-12 bg-white/20 group-hover:w-full transition-all duration-500"></div>
+    
+    <div class="mt-6 flex gap-4 font-mono text-[10px] text-white/20 uppercase tracking-widest">
+      <span>Hyper-V</span>
+      <span>•</span>
+      <span>Azure Integration</span>
+    </div>
+  </div>
 </div>
-<br><br><br><br><br><br><br><br>
-<section class="relative h-auto w-full bg-[#0D0D0D] text-white overflow-hidden px-6 py-12">
-    <div class="md:col-span-8">
-      <p class="text-2xl text-white/60 leading-relaxed italic border-b border-white/5 pb-4" id="block">Background</p>
-      
-      <div class="mt-8 md:ml-[33%] max-w-xl">
-        <p class="text-3xl text-white/90 leading-relaxed font-geist tracking-tight">
-          Cisco Certified Network Associate - 2026. <br> 
-          <span class="text-white/40 font-mono text-xl">></span> Network Fundamentals <br> 
-          <span class="text-white/40 font-mono text-xl">></span> Routing Protocols <br> 
-          <span class="text-white/40 font-mono text-xl">></span> Network Infrastructure
-        </p>
-      </div>
+
     </div>
-</section>
-
-<section class="relative h-auto w-full bg-[#0D0D0D] text-white overflow-hidden px-6 py-12">
-    <div class="md:col-span-8">
-      <p class="text-2xl text-white/60 leading-relaxed italic border-b border-white/5 pb-4">Technical Expertise</p>
-      
-      <div class="mt-8 md:ml-[33%] max-w-xl">
-        <p class="text-3xl text-white/90 leading-relaxed font-geist tracking-tight">
-          Cybersecurity & Infrastructure. <br> 
-          <span class="text-white/40 font-mono text-xl">></span> Pentesting (kali linux) <br> 
-          <span class="text-white/40 font-mono text-xl">></span> Firewall Management <br> 
-          <span class="text-white/40 font-mono text-xl">></span> Incident Response
-        </p>
-      </div>
-    </div>
-</section>
-
-<section class="relative h-auto w-full bg-[#0D0D0D] text-white overflow-hidden px-6 py-12">
-    <div class="md:col-span-8">
-      <p class="text-2xl text-white/60 leading-relaxed italic border-b border-white/5 pb-4">Projects</p>
-</section>
-
-<section aria-labelledby="gallery-heading" class="px-4 md:px-8 mt-7">
-   <div class="max-w-7xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-         
-         <div class="flex flex-col pr-6 lg:border-r border-gray-200 last:border-0">
-            <div class="bg-gray-100 rounded-lg overflow-hidden">
-               <img src="/images/pckt.jpg" alt="Network Hybrid Routing Architecture Screenshot"
-                  class="w-full h-auto object-cover object-top hover:scale-105 transition-transform duration-300" />
-            </div>
-            <p class="mt-4 text-left text-heading fade-on-scroll gantari-mainfont font-bold text-lg">
-               Client-based Hybrid Routing Architecture
-            </p>
-         </div>
-
-         <div class="flex flex-col pr-6 lg:border-r border-gray-200 last:border-0">
-            <div class="bg-gray-100 rounded-lg overflow-hidden">
-               <img src="images/cyb.png" alt="DeepTrace Forensics"
-                  class="w-full h-auto object-cover object-top hover:scale-105 transition-transform duration-300" />
-            </div>
-            <p class="mt-4 text-left text-heading fade-on-scroll gantari-mainfont font-bold text-lg">
-               DeepTrace - a deep-level digital forensics logger
-            </p>
-         </div>
-
-         <div class="flex flex-col pr-6 lg:border-r border-gray-200 last:border-0">
-            <div class="bg-gray-100 rounded-lg overflow-hidden">
-               <img src="/images/cloud.webp" alt="Hybrid Cloud Infrastructure"
-                  class="w-full h-auto object-cover object-top hover:scale-105 transition-transform duration-300" />
-            </div>
-            <p class="mt-4 text-left text-heading fade-on-scroll gantari-mainfont font-bold text-lg">
-               Hybrid Cloud Infrastructure using HyperVisor
-            </p>
-         </div>
-         
-      </div>
-   </div>
+  </div>
 </section>
 
 <br><br><br><br>
-<div class="flex flex-col md:flex-row justify-between items-start w-full px-8 mt-12 gap-8 font-sans">
-  <p class="text-right text-4xl text-heading fade-on-scroll gantari-mainfont font-bold">
-    #
-  </p>
-  <p class="text-left max-w-xs text-heading gantari-mainfont">
-    <span class="opacity-50">></span>Hi I'm a Network Engineer & Cybersecurity specialist from the Philippines, I specialize in enterprise-level network engineering and cybersecurity.
-  </p>
-
-  <p class="text-right text-heading fade-on-scroll gantari-mainfont font-bold">
-    Skillsets
-  </p>
-
-  <p class="text-right text-heading fade-on-scroll gantari-mainfont font-bold">
-    <span class="opacity-50">></span> Cyber-Security <br> 
-    <span class="opacity-50">></span> Network Engineering <br> 
-    <span class="opacity-50">></span> Network Architecture <br>
-  </p>
-  <a href="contact.html" class="flex items-center gap-2 text-left max-w-xs text-heading gantari-mainfont group cursor-pointer">
-  <span class="opacity-50 transform group-hover:translate-x-1 transition-transform duration-300"> > </span>
-  
-  <span class="border-b border-white/20 group-hover:border-white transition-colors duration-300 text-white">
-    Get in touch
-  </span>
-  </a>
-
-</div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div class="flex flex-col md:flex-row justify-center items-start w-full px-6 mt-4 gap-8 font-sans" id="block">
-  <p class="text-[11vw] text-heading leading-none whitespace-nowrap gantari-mainfont">
-    Ryelee Cambronero
-  </p>
-</div>
-<br><br><br><br><br><br><br><br>
 <script src="index.js"></script>
 </body>
 </html>
